@@ -1,6 +1,7 @@
 import { Route, Routes } from 'react-router-dom';
 
-
+import Wrapper from './Wrapper';
+import Header from './Header';
 
 function App() {
   return (
