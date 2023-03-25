@@ -9,7 +9,9 @@ import { Route, Routes } from 'react-router-dom';
 
 const Main = () => {
     return (
-        <div>Main</div>
+        <section className='Main'>
+            <h2>My name is Dana Parker, I’m a digital artist working and living in Amsterdam.</h2>
+        </section>
     )
 }
 
