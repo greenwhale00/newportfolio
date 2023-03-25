@@ -1,0 +1,57 @@
+body {
+    overflow-x: hidden;
+    font-family: 'Unbounded', cursive;
+    background-color: #E5E3DF;
+}
+
+.Wrapper {
+    min-width: 1780px;
+}
+
+.inner {
+    width: calc(100% - 140px);
+    margin: 0 auto;
+}
+
+
+.Header {
+
+    margin-bottom: 50px;
+    color: #161616;
+  
+    .inner {
+        line-height: 110px;
+        display: flex;
+        justify-content: space-between;
+
+        h1 {
+            width: 200px;
+            font-size: 21px;
+            font-weight: 700;
+            // font-style: italic;
+           
+        }
+
+        ul {
+            display: flex;
+            gap: 60px;
+            font-size: 19px;
+            font-weight: 600;
+
+        }
+
+        .icon {             
+           
+           cursor: pointer;
+
+            a {
+                font-size: 17px;
+                font-weight: 500;
+                padding: 15px 45px;
+                border-radius: 62px;
+                color: #181818;
+                background-color: #f4f4f4;                
+            }
+        }
+    }
+}

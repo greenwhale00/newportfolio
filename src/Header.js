@@ -1,4 +1,6 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
+import NavMenu from './NavMenu';
 
 const Header = () => {
     return (
@@ -7,7 +9,7 @@ const Header = () => {
             <div className="inner">
                 <h1>
                     <Link to='/'>
-                        <a href="/">portfolio</a>
+                        <a href="/">✽ Kim Hye lim</a>
                     </Link>
                 </h1>
                 <nav>
